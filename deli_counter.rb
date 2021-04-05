@@ -29,4 +29,5 @@ def now_serving(array, index)
   else !array.empty?
     puts "Currently serving, #{index[0]}."
     array.shift
+  end
 end
