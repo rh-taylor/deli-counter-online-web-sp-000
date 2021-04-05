@@ -15,8 +15,6 @@ def line(array)
 end
 
 
-
-
 #puts a name and position number in line
 def take_a_number(array, name)
   array.push(name)
