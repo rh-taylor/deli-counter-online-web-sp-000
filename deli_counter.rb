@@ -23,7 +23,7 @@ end
 
 
 #puts next person in line (i.e. first element in array) and removes their name from the array
-def now_serving(katz_deli)
+def now_serving(array)
   if array.empty?
     puts "There is nobody waiting to be served!"
   else !array.empty?
