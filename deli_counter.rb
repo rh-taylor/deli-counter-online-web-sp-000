@@ -22,10 +22,7 @@ def take_a_number(array, name)
 end
 
 
-
-
-
 #puts next person in line (i.e. first element in array) and removes their name from the array
 def now_serving
-  puts
+  puts "Currently serving, #{index}"
 end
