@@ -24,6 +24,9 @@ end
 
 #puts next person in line (i.e. first element in array) and removes their name from the array
 def now_serving(array, index)
-  puts "Currently serving, #{index[0]}."
-  array.shift
+  if array.empty?
+    puts "There is nobody waiting to be served!"
+  else !array.empty?
+    puts "Currently serving, #{index[0]}."
+    array.shift
 end
