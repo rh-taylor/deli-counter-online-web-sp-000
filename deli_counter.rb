@@ -24,5 +24,5 @@ end
 
 #puts next person in line (i.e. first element in array) and removes their name from the array
 def now_serving
-  puts "Currently serving, #{index}"
+  puts "Currently serving, #{index}."
 end
