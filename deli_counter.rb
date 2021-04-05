@@ -23,6 +23,7 @@ end
 
 
 #puts next person in line (i.e. first element in array) and removes their name from the array
-def now_serving(index)
+def now_serving(array, index)
   puts "Currently serving, #{index[0]}."
+  array.shift
 end
